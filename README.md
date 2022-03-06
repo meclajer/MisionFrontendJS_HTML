@@ -1,10 +1,6 @@
 # MisionFrontendJS_HTML
- Practicas Launch X Microsoft
-
-# Prácticas HTML
-Para la práctica de esta semana tendrán que maquetar en HTML el siguiente caso y generar su repositorio con el ejercicio.
+ Practicas Launch X Microsoft, en el proceso de convertirse en un Full Stack developer.
 <br>
-Recordemos que solamente se necesita maquetar como un prototipo, **no es necesario que tenga funcionalidad completa en la información**
 
 ## **Caso: Pastelería**
 <br>
@@ -22,7 +18,7 @@ Descripción:<br>
 - La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención.
 
 ## Prácticas a Realizar
-**Tienen hasta el 4 de Marzo**
+**Tienen hasta el 6 de Marzo**
 
 Prácticas:
 - Crear marca de la pastelería como un logo y los mensajes que daremos desde la marca.
