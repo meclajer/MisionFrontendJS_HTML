@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Rinconcito De Amor</title>
 
-    <link rel="shortcut icon" href="./assets/logos.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/logos.jpeg" type="image/x-icon">
 
     <!-- css -->
     <link rel="stylesheet" href="../styles/style.css">
@@ -47,13 +47,13 @@
                         
                     </div>
                     <span class="navbar-text">
-                        <a class="navmenu" href="./views/login.html">
+                        <a class="navmenu" href="../root.html">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 class="bi d-block mx-auto mb-1" viewBox="0 0 16 16">
-                                <path
-                                    d="M9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h10s1 0 1-1-1-4-6-4-6 3-6 4Zm13.5-8.09c1.387-1.425 4.855 1.07 0 4.277-4.854-3.207-1.387-5.702 0-4.276Z" />
+                                <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0v2z"/>
+                                <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"/>
                             </svg>
-                            Acceder
+                            Salir
                         </a>
                     </span>
                 </div>
@@ -61,8 +61,113 @@
         </nav>
     </header>
 
-    <!-- Content -->
-    
+    <!-- Pedidos -->
+    <section class="contenedor-separacion p-5 m-3">
+        <h4 class="text-center p-2 col-12">Pedidos</h4>
+        <table class="table p-5">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Status</th>
+                <th scope="col">Cliente</th>
+                <th scope="col">Sabores</th>
+                <th scope="col">Adornos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">321</th>
+                <td>Miguel Eduardo...</td>
+                <td>Confirmado</td>
+                <td>chocolate, vainilla</td>
+                <td>Ferrero Rocher</td>
+              </tr>
+              <tr>
+                <th scope="row">322</th>
+                <td>Renata Vasquez Luna</td>
+                <td>En proceso</td>
+                <td>Frambuesa, Cocolate</td>
+                <td>Mariposas, Rosas.</td>
+              </tr>
+              <tr>
+                <th scope="row">323</th>
+                <td>Francisco Villa</td>
+                <td>Por Confirmar</td>
+                <td>Chocolate, chocolate</td>
+                <td>Betun</td>
+              </tr>
+            </tbody>
+          </table>
+    </section>
+
+    <!-- Almacen -->
+    <section class="contenedor-separacion p-5 m-3">
+        <h4 class="text-center p-2 col-12">Almacen Materia prima</h4>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Nombre</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <th>34</th>
+                    <td>Vainilla</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <th>34</th>
+                    <td>Chocolate</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <th>34</th>
+                    <td>Frambuesa</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <th>34</th>
+                    <td>Caramelo</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h4 class="text-center p-2 col-12">Almacen Adornos</h4>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Nombre</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <th>13</th>
+                    <td>Rosas</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <th>60</th>
+                    <td>Ferrero Rocher</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <th>50</th>
+                    <td>Oreos</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <th>23</th>
+                    <td>Mariposas</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
     <!-- Footer -->
     <footer class="text-center text-lg-start text-light">
